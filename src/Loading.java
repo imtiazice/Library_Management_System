@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Ram Sundar
+ * @author DCL
  */
 import javax.swing.*;
 import java.sql.*;

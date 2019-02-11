@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Ram Sundar
+ * @author DCL
  */
 import java.sql.*;
 import javax.swing.JOptionPane;
@@ -172,7 +172,6 @@ PreparedStatement pst;
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel2.setText("Name");
 
-        jButton1.setIcon(new javax.swing.ImageIcon("E:\\Software\\Languages\\Jar Files\\Icons\\SEO-icon-1.png")); // NOI18N
         jButton1.setText("Search");
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -249,7 +248,6 @@ PreparedStatement pst;
         jLabel15.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel15.setText("Issue Date");
 
-        jButton2.setIcon(new javax.swing.ImageIcon("E:\\Software\\Languages\\Jar Files\\Icons\\Distributor-report-icon-1.png")); // NOI18N
         jButton2.setText("Return");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -257,7 +255,6 @@ PreparedStatement pst;
             }
         });
 
-        jButton3.setIcon(new javax.swing.ImageIcon("E:\\Software\\Languages\\Jar Files\\Icons\\User-Interface-Logout-icon-1.png")); // NOI18N
         jButton3.setText("Back");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -316,7 +313,7 @@ PreparedStatement pst;
                 .addGap(38, 38, 38))
         );
 
-        setSize(new java.awt.Dimension(736, 488));
+        setSize(new java.awt.Dimension(736, 501));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 

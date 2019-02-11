@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Ram Sundar
+ * @author DCL
  */
 import java.sql.*;
 import javax.swing.JOptionPane;
@@ -113,7 +113,6 @@ PreparedStatement pst;
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jButton1.setIcon(new javax.swing.ImageIcon("E:\\Software\\Languages\\Jar Files\\Icons\\User-Interface-Logout-icon-1.png")); // NOI18N
         jButton1.setText("Back");
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -185,7 +184,7 @@ PreparedStatement pst;
                 .addGap(338, 338, 338))
         );
 
-        setSize(new java.awt.Dimension(704, 642));
+        setSize(new java.awt.Dimension(704, 669));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 

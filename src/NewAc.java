@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Ram Sundar
+ * @author DCL
  */
 import java.awt.Color;
 import java.sql.*;
@@ -67,7 +67,6 @@ ResultSet rs;
         jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel5.setText("Sequrity Question");
 
-        jButton1.setIcon(new javax.swing.ImageIcon("E:\\Software\\Languages\\Jar Files\\Icons\\Save-icon.png")); // NOI18N
         jButton1.setText("Save");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -81,7 +80,6 @@ ResultSet rs;
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel2.setText("Username");
 
-        jButton2.setIcon(new javax.swing.ImageIcon("E:\\Software\\Languages\\Jar Files\\Icons\\Actions-edit-redo-icon.png")); // NOI18N
         jButton2.setText("Back");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -155,7 +153,7 @@ ResultSet rs;
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6)
                     .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(jButton2))
@@ -179,7 +177,7 @@ ResultSet rs;
                 .addGap(20, 20, 20))
         );
 
-        setSize(new java.awt.Dimension(325, 377));
+        setSize(new java.awt.Dimension(325, 398));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 

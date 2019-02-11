@@ -12,7 +12,7 @@ import javax.swing.*;
 
 /**
  *
- * @author Ram Sundar
+ * @author DCL
  */
 public class Login extends javax.swing.JFrame {
 Connection conn;
@@ -53,7 +53,6 @@ PreparedStatement pst;
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Login", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 24), new java.awt.Color(51, 102, 255))); // NOI18N
 
-        jButton1.setIcon(new javax.swing.ImageIcon("E:\\Software\\Languages\\Jar Files\\Icons\\inside-logout-icon.png")); // NOI18N
         jButton1.setText("Login");
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -68,7 +67,6 @@ PreparedStatement pst;
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel2.setText("Password");
 
-        jButton2.setIcon(new javax.swing.ImageIcon("E:\\Software\\Languages\\Jar Files\\Icons\\new-file-icon.png")); // NOI18N
         jButton2.setText("Signup");
         jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -80,7 +78,6 @@ PreparedStatement pst;
         jLabel3.setForeground(new java.awt.Color(255, 102, 102));
         jLabel3.setText("Trouble Login..!");
 
-        jButton3.setIcon(new javax.swing.ImageIcon("E:\\Software\\Languages\\Jar Files\\Icons\\mini_Icon_ForgotPassw.png")); // NOI18N
         jButton3.setText("Forgot Password");
         jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -94,10 +91,6 @@ PreparedStatement pst;
                 jPasswordField1KeyReleased(evt);
             }
         });
-
-        jLabel4.setIcon(new javax.swing.ImageIcon("E:\\Software\\Languages\\Jar Files\\Icons\\Security-Password-2-icon.png")); // NOI18N
-
-        jLabel5.setIcon(new javax.swing.ImageIcon("E:\\Software\\Languages\\Jar Files\\Icons\\Password-shopping-icon.png")); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -175,7 +168,7 @@ PreparedStatement pst;
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        setSize(new java.awt.Dimension(391, 267));
+        setSize(new java.awt.Dimension(391, 291));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 

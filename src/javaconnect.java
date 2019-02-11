@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Ram Sundar
+ * @author DCL
  */
 import java.sql.*;
 import javax.swing.JOptionPane;
@@ -16,7 +16,7 @@ public class javaconnect {
  public static Connection ConnecrDb(){
      try{
         Class.forName("org.sqlite.JDBC");
-        Connection conn=DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Ram Sundar\\Documents\\NetBeansProjects\\Library_Management_System\\library.sqlite");
+        Connection conn=DriverManager.getConnection("jdbc:sqlite:C:\\Users\\DCL\\Documents\\NetBeansProjects\\Library_Management_System\\library.sqlite");
         return conn;
      }catch(Exception e){
          JOptionPane.showMessageDialog(null, e);
